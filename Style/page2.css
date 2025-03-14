@@ -21,6 +21,7 @@ body {
     height: 25vh;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    display: flex;
 }
 
 .small-container {
@@ -37,4 +38,9 @@ body {
     height: 200px;
     padding-left: 2rem;
     padding-bottom: 1rem;
+}
+
+.titleRobo {
+    padding-top: 1rem;
+    padding-left: 3rem;
 }
