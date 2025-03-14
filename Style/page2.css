@@ -44,3 +44,11 @@ body {
     padding-top: 1rem;
     padding-left: 3rem;
 }
+
+.falaComigo {
+    background-color: #0004ff;
+    color: white;
+    padding-right: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
