@@ -43,12 +43,119 @@ body {
 .titleRobo {
     padding-top: 1rem;
     padding-left: 3rem;
+    font-size: 2rem;
 }
 
 .falaComigo {
     background-color: #0004ff;
     color: white;
-    padding-right: 5rem;
+    padding-right: 2rem;
     border-radius: 2rem;
     text-align: center;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.material {
+    background-color: #0004ff;
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.servico {
+    background-color: #0004ff;
+    margin-left: 10rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.fluxoProcessos {
+    background-color: #0004ff;
+    margin-left: 10rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.status {
+    background-color: #0004ff;
+    margin-left: 10rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.naoSei {
+    background-color: #0004ff;
+    margin-left: 10rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* 1 small container */
+
+.pedidosRecentes {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.multiplaStatus {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.imagemPedidos img {
+    display: flex;
+    width: 420px;
+    height: 127px;
+}
+
+/* segundo container big*/
+
+.titleUltimasCompras {
+    display: flex;
+    gap: 60rem;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+/* Segundo small container */ 
+
+.titleMensagensAlertas {
+    display: flex;
+    gap: 5rem;
+    padding-left: .5rem;
+}
+
+/* Tabela 2 small container */
+
+thead {
+    gap: 2rem;
+}
+
+td {
+    display: flex;
+    background-color: white;
 }
