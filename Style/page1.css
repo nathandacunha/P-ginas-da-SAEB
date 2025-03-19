@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cima {
+    background-color: #d3d3d3;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.traco img {
+    width: 1920px;
+}
+
+
+.opcoes {
+    background-color: rgb(201, 198, 198);
+    display: flex;
+    gap: 1.5em;
+    padding-left: .5rem;
+}
+
+/* button save */ 
+
+.save button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button cancel */ 
+
+.cancel button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button edit */
+
+.edit button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button save Draft */
+
+.save-draft button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button load draft */ 
+
+.load-draft button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* ciclo item */
+
+.ciclo-item {
+    background-color: red;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;    
+}
+
+
+/* button undo */
+
+.undo button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button Redo */ 
+
+.redo button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button check */
+
+.check button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* button additionalFunctions */
+
+.additionalFunctions button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: .2rem .2rem;
+}
+
+/* Section Navegation */
+
+.navegation {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    gap: 2rem;
+    width: 50vh;
+    height: 4.5vh;
+    margin-bottom: .5rem;
+}
+
+.title {
+    font-size: 2rem;   
+    padding-left: 1rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: .45rem;
+}
+
+.iconsOptions {
+    display: flex;
+    gap: .8rem;
+    background-color: #ebebeb;
+    max-width: 50vh;
+    padding-left: 1rem;
+}
+
+
+/* tabela 1 */
+.tabela1 table{
+    border-collapse: collapse;
+    border: 1px solid;
+    letter-spacing: 1px;
+}
+
+.tabela1 {
+    max-width: 50vh;
+    max-height: 45vh;
+}
+
+.tabela1 th, td, tr {
+    border: 1px solid;
+    width: 25rem;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .90rem;
+    
+}
+.tabela1 th {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+#vazio {
+    background-color: #d3d3d3;
+}
+
+/* 2 section */
+
+/* attributes */ 
+
+.attributes {
+    background-color: rgb(219, 219, 219);
+    margin-left: 30rem;
+    width: 1440px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.attributes button {
+    background-color: #d3d3d3;
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 1.7rem;
+    margin-top: .5rem;
+}
+
+.winName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.formWindow {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
