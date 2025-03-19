@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monda:wght@400..700&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    margin-top: .7rem;
 }
 
 body {
     margin-top: 1rem;   
     margin-right: 1rem;
     margin-bottom: .7rem;
+    background-color: white;
 }
 
 .flexivel {
@@ -16,7 +18,7 @@ body {
 }
 
 .big-container {
-    background-color: #89CFF0;
+    background-color: #d7e6fd ;
     width: 175vh;
     height: 25vh;
     margin-bottom: 1rem;
@@ -25,7 +27,7 @@ body {
 }
 
 .small-container {
-    background-color: #89CFF0;
+    background-color: #d7e6fd ;
     margin-left: .9rem;
     width: 50vh;
     height: 25vh;
@@ -38,16 +40,18 @@ body {
     height: 200px;
     padding-left: 2rem;
     padding-bottom: 1rem;
+    background-color: transparent;
 }
 
 .titleRobo {
     padding-top: 1rem;
     padding-left: 3rem;
     font-size: 2rem;
+    color: #4238bc;
 }
 
 .falaComigo {
-    background-color: #0004ff;
+    background-color: #4238bc;
     color: white;
     padding-right: 2rem;
     border-radius: 2rem;
@@ -57,7 +61,7 @@ body {
 }
 
 .material {
-    background-color: #0004ff;
+    background-color: #4238bc;
     margin-left: 10rem;
     margin-top: 2.5rem;
     color: white;
@@ -68,7 +72,7 @@ body {
 }
 
 .servico {
-    background-color: #0004ff;
+    background-color: #4238bc;
     margin-left: 10rem;
     color: white;
     text-transform: uppercase;
@@ -78,7 +82,7 @@ body {
 }
 
 .fluxoProcessos {
-    background-color: #0004ff;
+    background-color: #4238bc;
     margin-left: 10rem;
     color: white;
     text-transform: uppercase;
@@ -88,7 +92,7 @@ body {
 }
 
 .status {
-    background-color: #0004ff;
+    background-color: #4238bc;
     margin-left: 10rem;
     color: white;
     text-transform: uppercase;
@@ -98,7 +102,7 @@ body {
 }
 
 .naoSei {
-    background-color: #0004ff;
+    background-color: #4238bc;
     margin-left: 10rem;
     color: white;
     text-transform: uppercase;
@@ -109,53 +113,173 @@ body {
 
 /* 1 small container */
 
+.status-pedido-recente {
+    background-color: #d7e6fd;
+    padding: 8px;
+}
+
 .pedidosRecentes {
     display: flex;
-    gap: 5rem;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #0557c2;
+    font-size: 1.25rem;
 }
 
 .multiplaStatus {
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
 }
 
-.imagemPedidos img {
-    display: flex;
-    width: 420px;
-    height: 127px;
+.multiplaStatus thead {
+    color: #0557c2;
+}
+
+.tableStatus tr {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.multiplaStatus th, .multiplaStatus td {
+    padding: 7px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+.multiplaStatus th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+#status-processo-green {
+    background-color: #00cc6b;
+    color: white;
+    border-radius: 8px;
+}
+
+#status-processo-yellow {
+    background-color: #ffd839;
+    color: white;
+    border-radius: 8px;
+}
+
+#status-processo-red {
+    background-color: #ff0020;
+    color: white;
+    border-radius: 8px;
 }
 
 /* segundo container big*/
 
+
 .titleUltimasCompras {
     display: flex;
     gap: 60rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.title1 {
+    color: #0557c2;
+    font-size: 1.12rem;
+}
+
+.title2 {
+    color: #0557c2;
+}
+
+.lista {
+    flex-direction: row;
+}
+
+.ultimas-compras {
+    display: flex;
+    flex-direction: column;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.itens {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    height: 300px;
+}
+
+.itens img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.itens button {
+    border: 0px;
+    width: 10px;
+    height: 10px;
+}
+
+.itemDescr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Segundo container small */
+.titlemensagemEalertas {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    color: #0557c2;
+    font-size: "Cabin", sans-serif;
+}
+
+/* ÚLTIMO CONTAINER BIG */
+
+.ultimasRequisicoes {
+    display: flex;
+    gap: 62rem;
     justify-content: center;
     padding-left: 2rem;
 }
 
-.imagem {
-    display: flex;
-    justify-content: center;
+.title3 {
+    color: #0557c2;
+    font-size: 1rem;
 }
 
-/* Segundo small container */ 
-
-.titleMensagensAlertas {
-    display: flex;
-    gap: 5rem;
-    padding-left: .5rem;
+.title4 {
+    color: #0557c2;
 }
 
-/* Tabela 2 small container */
-
-thead {
-    gap: 2rem;
+.title5 {
+    color: #0557c2;
+    font-size: 1.15rem;
 }
 
-td {
+.image1 img {
+    width: 30rem;
+}
+/* último container small */ 
+
+.ultimasTransicoesPedidos {
     display: flex;
-    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    color: #0557c2;
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
 }
