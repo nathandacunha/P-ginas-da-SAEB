@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Style/page2.css">
+    <link rel="stylesheet" href="../styles/page2.css">
     <title>Tela 2</title>
 </head>
-<body>
-    <main>
+<body> 
+    <main> 
         <section> <!-- Container 1 -->
             <div class="flexivel">
                 <div class="big-container">
@@ -15,10 +15,10 @@
                         <img src="../images/imagemRobo.jpg" alt="">
                     </div>
                     <div class="titleRobo">
-                        <p>Olá, tudo bem?</p>
-                        <p> Como posso <br> ajudar hoje?</p>
+                        <p> <strong>Olá, tudo bem? </strong></p>
+                        <p> <strong> Como posso <br> ajudar hoje? </strong></p>
                         <button class = "falaComigo">Fala Comigo!</button>
-                    </div>
+                    </div> 
                     <div class="opcoes">
                         <p class = "material">Quero comprar material</p>
                         <p class = "servico">Quero comprar serviço</p>
@@ -27,75 +27,147 @@
                         <p class = "naoSei">Não sei ao certo, me ajude </p>
                     </div>
                 </div>
-                <div class="small-container">
+                <div class="small-container status-pedido-recente">
                     <div class="pedidosRecentes">
                         <p>Status de pedidos recentes</p>
                         <p>ver todos os pedidos</p> 
                     </div>
-                    <div class="multiplaStatus">
-                        <p>N° Req.</p>
-                        <p>Data</p>
-                        <p>Valor</p>
-                        <p>Status</p>
-                    </div>
-                    <div class="imagemPedidos">
-                        <img src="../images/pedidos.png" alt="">
-                    </div>
+                    <table class = "multiplaStatus">
+                        <thead>
+                            <tr>
+                                <th>N° Requi.</th>
+                                <th>Data</th>
+                                <th>Valor</th>
+                                <th> Status </th>
+                            </tr> 
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>#125</th> 
+                                <th>20/04/2020</th>
+                                <th>R$ 1.250,50</th>
+                                <th id = "status-processo-green">Processando</th>
+                            </tr>
+                            <tr>
+                                <th>#125</th> 
+                                <th>20/04/2020</th>
+                                <th>R$ 1.250,50</th>
+                                <th id = "status-processo-yellow">Processando</th>
+                            </tr>
+                            <tr>
+                                <th>#125</th> 
+                                <th>20/04/2020</th>
+                                <th>R$ 1.250,50</th>    
+                                <th id = "status-processo-red">Processando</th>
+                            </tr>
+                            <tr>
+                                <th>#125</th> 
+                                <th>20/04/2020</th>
+                                <th>R$ 1.250,50</th>
+                                <th id = "status-processo-green">Processando</th>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
         <section>
             <div class="flexivel">
-                <div class="big-container">
+                <div class="big-container ultimas-compras">
                     <div class = "titleUltimasCompras">
-                        <p>Baseado em suas últimas compras </p>
-                        <p>Ver todas as recomendações</p>
+                        <p class = "title1"> <strong> Baseado em suas últimas compras </strong></p>
+                        <div>
+                            <p class = "title2">Ver todas as recomendações</p>
+                            <button> + </button>
+                        </div>
                     </div>
-                    <div class="imagem">
-                        <img src="../images/papelSufite.jpg" alt="">
+                    <div class="produto">
+
+                        <button> &lt; </button>
+
+                        <div class="itens">
+                            <img src="../images/papelSufite.jpg" alt="">
+                            <div class="itemDescr">
+                                <p>Pacote de Folha A4 <br>R$:34,00</p>
+                                <button><img src="../images/carrinho.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="itens">
+                            <img src="../images/sap.jpg" alt="">
+                            <div class="itemDescr">
+                                <p>SAP Serviços <br>R$:123,00</p>
+                                <button><img src="../images/carrinho.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="itens">
+                            <img src="../images/grampeador.png" alt="">
+                            <div class="itemDescr">
+                                <p>Grampeador <br>R$:13,00</p>
+                                <button><img src="../images/carrinho.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="itens">
+                            <img src="../images/caneta-azul.png" alt="">
+                            <div class="itemDescr">
+                                <p>Caneta Azul <br>R$:6,00</p>
+                                <button><img src="../images/carrinho.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="itens">
+                            <img src="../images/lapis-preto.png" alt="">
+                            <div class="itemDescr">
+                                <p>Lapis Preto <br>R$:6,00</p>
+                                <button><img src="../images/carrinho.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="itens">
+                            <img src="../images/caderno-100-folhas.png" alt="">
+                            <div class="itemDescr">
+                                <p>Caderno 100 folhas <br>R$:30,00</p>
+                                <button><img src="../images/carrinho.png" alt=""></button>
+                            </div>
+                        </div>
+
+                        <button> &gt; </button>
+
                     </div>
                 </div>
                 <div class="small-container">
                    <div class="mensagemEalertas">
-                        <table>
-                            <thead>
-                                <p> Mensagens e alertas </p>
-                                <p> Ver todas as mensagens </p>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                 <td> João da Silva</td>
-                              </tr>
-                              <tr>
-                                <td>Márcio José</td>
-                              </tr>
-                              <tr>
-                                <td> João da Silva</td>
-                             </tr>
-                             <tr>
-                               <td>Márcio José</td>
-                             </tr>
-                            </tbody>
-                        </table>
-                   </div>
+                        <div class="titlemensagemEalertas">
+                            <p class = "title3">Mensagens e alertas </p> <!-- Title do 2 container small-->
+                            <p class = "title4">Ver todas as mensagens</p> <!-- Outro Title do 2 container small -->
+                        </div>    
+                    </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="flexivel">
                 <div class="big-container">
-                    <p>
-                        kawdkwada
-                    </p>
+                    <div class="ultimasRequisicoes"> <!-- último container big-->
+                        <p class = "title5">
+                            <strong> Status das últimas requisições </strong>
+                        </p>
+                        <p class = "title6">
+                            Ver todos os processos
+                        </p>    
+
+                    </div>
+
                 </div>
                 <div class="small-container">
-                    <p>
-                        adjwadwa
-                    </p>
+                    <div class="ultimasTransicoesPedidos"> <!-- último container small-->
+                        <p>
+                           <strong> Últimas transições e pedidos </strong>
+                        </p>
+                        <p>
+                            Ver todas as transições 
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>       
     </main>
-    
 </body>
 </html>
